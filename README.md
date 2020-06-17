@@ -6,7 +6,7 @@ This project is about applying deep learning in speech recognition. Trigger word
 
 ## Introduction
 
-In this project, we will generate training data based on three types of audio clips, one is positive cases(audio clips that contain trigger word), another one is negative cases, and the last one is the audio clips containing background voice. Then we will use the python package called `pydub` to insert some positive and negative audio clips into background audio clips without overlapping with each other.
+In this project, we will generate training data based on three types of audio clips, one is positive cases(audio clips that contain trigger word), another one is negative cases, and the last one is the audio clips containing background noise. Then we will use the python package called `pydub` to insert some positive and negative audio clips into background noise audio clips without overlapping with each other.
 
 The below image is the model architecture.
 
